@@ -1,0 +1,16 @@
+{
+  "agents": [
+    {
+      "name": "erm-question-agent",
+      "description": "Bedrock question-answer agent for ERM workflow",
+      "runtimeVersion": "PYTHON_3_11",
+      "buildType": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app",
+      "environment": {
+        "BEDROCK_API_KEY": "${BEDROCK_API_KEY}",
+        "AWS_REGION": "${AWS_REGION}"
+      }
+    }
+  ]
+}

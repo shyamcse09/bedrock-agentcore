@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+boto3>=1.43.0
+pydantic
+python-dotenv
+dotenv
